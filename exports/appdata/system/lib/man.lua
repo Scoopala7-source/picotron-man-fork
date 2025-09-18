@@ -1,6 +1,7 @@
 man = nil
 do
-  local localSections = { 1, 2, 3, 5 }
+  -- TODO: test
+  local localSections = { 1, 2, 3, 4, 5 }
 
   local function parseP8scii (str)
     local p8scii = {
